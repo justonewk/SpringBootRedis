@@ -26,3 +26,6 @@ hs_err_pid*
 .idea/misc.xml
 .idea/vcs.xml
 .idea/workspace.xml
+/.idea
+/SpringBootRedis.iml
+/src/main/main.iml
