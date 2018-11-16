@@ -29,3 +29,4 @@ hs_err_pid*
 /.idea
 /SpringBootRedis.iml
 /src/main/main.iml
+/target
