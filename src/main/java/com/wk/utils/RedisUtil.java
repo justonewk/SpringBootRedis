@@ -1,18 +1,22 @@
 package com.wk.utils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 /**
  * 封装RedisTemplate的RedisUtil类
  * @author wk
  */
-
+@Component
 public class RedisUtil {
+    @Autowired
     protected RedisTemplate<String,Object> redisTemplate;
 
     public void setRedisTemplate(RedisTemplate<String,Object> redisTemplate){

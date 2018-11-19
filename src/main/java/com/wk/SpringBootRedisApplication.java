@@ -2,13 +2,14 @@ package com.wk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootConfiguration
+@SpringBootApplication
 public class SpringBootRedisApplication {
 
     private static SpringBootRedisApplication instance;
     public static void main(String args[]){
-        SpringApplication.run(SpringBootRedisApplication.class);
+        SpringApplication.run(SpringBootRedisApplication.class,args);
         instance = (SpringBootRedisApplication) SpringContextUtils.getBeanByClass(SpringBootRedisApplication.class);
 
     }
