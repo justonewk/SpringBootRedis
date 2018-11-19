@@ -1,5 +1,5 @@
 # SpringBootRedis
-SpringBoot整合Redis步骤
+SpringBoot整合Redis(jedis pool连接池)步骤
 
 1.使用Redis之前需要引入相关依赖，Maven方式依赖的脚本如下：
 
