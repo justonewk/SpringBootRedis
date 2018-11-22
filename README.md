@@ -53,6 +53,7 @@ SpringBoot整合Redis(jedis pool连接池)步骤
  
  #连接超时时间（毫秒）
  spring.redis.timeout=1000
+ 
  #连接池最大连接数（使用负值表示没有限制）
  spring.redis.jedis.pool.max-active=8
  
