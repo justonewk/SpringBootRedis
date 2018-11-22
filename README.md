@@ -47,8 +47,11 @@ SpringBoot整合Redis(jedis pool连接池)步骤
  
  #Redis配置
  spring.redis.database=0
+ 
  spring.redis.host=127.0.0.1
+ 
  spring.redis.port=6379
+ 
  spring.redis.password=
  
  #连接超时时间（毫秒）
