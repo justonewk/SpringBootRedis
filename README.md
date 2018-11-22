@@ -44,6 +44,7 @@ SpringBoot整合Redis(jedis pool连接池)步骤
     注:Redis默认端口为6379 默认共有16个数据库，默认使用0号数据库，这里采用jedis pool连接池
     
  配置如下:
+ 
  #Redis配置
  spring.redis.database=0
  spring.redis.host=127.0.0.1
