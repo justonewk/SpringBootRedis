@@ -55,17 +55,22 @@ SpringBoot整合Redis(jedis pool连接池)步骤
  spring.redis.password=
  
  #连接超时时间（毫秒）
+ 
  spring.redis.timeout=1000
  
  #连接池最大连接数（使用负值表示没有限制）
+ 
  spring.redis.jedis.pool.max-active=8
  
  #连接池最大阻塞等待时间（使用负值表示没有限制）
+ 
  spring.redis.jedis.pool.max-wait=-1
  
  #连接池中最大的空闲连接
+ 
  spring.redis.jedis.pool.max-idle=5
  
  #连接池中最小的空闲连接
+ 
  spring.redis.jedis.pool.min-idle=8
   
